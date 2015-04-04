@@ -12,6 +12,9 @@
   <remote  name="gh"
            fetch="git://github.com/" />
 
+  <remote name="bb"
+           fetch="https://bitbucket.org/" />
+
   <remote  name="tv"
            fetch="git://github.com/TV-LP51/" />
 
