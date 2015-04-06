@@ -37,6 +37,7 @@
   <project path="android" name="android" remote="tv" revision="lp5.1" />
   <project path="bionic" name="android_bionic" remote="tv" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="tv" revision="lp5.1" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
   <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="frameworks_opt_chips" remote="tv" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="tv" revision="lp5.1" />
@@ -376,7 +377,6 @@
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
