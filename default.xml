@@ -35,7 +35,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="tv" revision="lp5.1" />
-  <project path="bionic" name="android_bionic" remote="tv" revision="lp5.1" />
+  <project path="bionic" name="bionic" remote="tv" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="tv" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
   <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
