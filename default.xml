@@ -36,6 +36,7 @@
   </project>
   <project path="android" name="android" remote="tv" revision="lp5.1" />
   <project path="bionic" name="android_bionic" remote="tv" revision="lp5.1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tv" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="tv" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
   <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
@@ -57,7 +58,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
- <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
@@ -67,7 +68,6 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tv" revision="lp5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
@@ -316,7 +316,7 @@
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
+  <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" />
@@ -574,11 +574,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-5.1.0_r3" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.1.0_r3" />
 
-+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
-+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0" name="UBERTC/arm-eabi-5.0" remote="bb" revision="master" />
-+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
-+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0" name="UBERTC/arm-eabi-5.0" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="android_prebuilt" remote="tv" revision="lp" />    
