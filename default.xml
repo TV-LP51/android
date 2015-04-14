@@ -582,7 +582,5 @@
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="android_prebuilt" remote="tv" revision="lp" />    
-
-  <!-- Linaro-4.9 -->
-  <project path="prebuilt/linux-x86_64/toolchain/arm-cortex_a15-linux-gnueabihf" name="AD5GB/arm-cortex_a15-linux-gnueabihf" remote="gh" revision="static" />    
+    
 </manifest>
