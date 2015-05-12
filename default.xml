@@ -44,6 +44,7 @@
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="tv" revision="lp5.1" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="tv" revision="lp5.1" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="tv" revision="lp5.1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="tv" revision="lp5.1" /> 
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="tv" revision="lp5.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="tv" revision="lp5.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tv" revision="testing" />
