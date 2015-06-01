@@ -372,7 +372,7 @@
   <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fw" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
-  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
+  <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" revision="cm-12.1" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk-cw-fs" />
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
   <!-- <project path="external/powertop" name="CyanogenMod/android_external_powertop" /> -->
@@ -392,7 +392,7 @@
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" />
   <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
-  <project path="external/vim" name="CyanogenMod/android_external_vim" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" revision="cm-12.1" />
   <project path="external/whispersystems/TextSecure" name="CyanogenMod/android_external_whispersystems_TextSecure" />
   <project path="external/whispersystems/WhisperPush" name="CyanogenMod/android_external_whispersystems_WhisperPush" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
@@ -449,7 +449,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8226" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8610" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8610" />
