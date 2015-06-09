@@ -36,6 +36,7 @@
   </project>
   <project path="android" name="android" remote="tv" revision="lp5.1" />
   <project path="bionic" name="android_bionic" remote="tv" revision="lp5.1" />
+  <project path="libcore" name="android_libcore" remote="tv" revision="lp5.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tv" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="tv" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
@@ -474,7 +475,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
