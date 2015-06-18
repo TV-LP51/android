@@ -42,6 +42,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
   <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="frameworks_opt_chips" remote="tv" revision="lp5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="tv" revision="lp5.1" /> 
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="tv" revision="lp5.1" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="tv" revision="lp5.1" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="tv" revision="lp5.1" />
@@ -433,7 +434,6 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
