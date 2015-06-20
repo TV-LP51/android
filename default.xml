@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r2" />
+           revision="refs/tags/android-5.1.1_r3" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -42,12 +42,12 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
   <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="frameworks_opt_chips" remote="tv" revision="lp5.1" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="tv" revision="lp5.1" /> 
+  <project path="frameworks/webview" name="frameworks_webview" remote="tv" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="tv" revision="lp5.1" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="tv" revision="lp5.1" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="tv" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="tv" revision="lp5.1"  />    
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="tv" revision="lp5.1" />   
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="tv" revision="lp5.1"  />  
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="tv" revision="lp5.1" /> 
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="tv" revision="lp5.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="tv" revision="lp5.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tv" revision="lp5.1" />
@@ -55,6 +55,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tv" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tv" revision="lp5.1" />
   <project path="vendor/validus" name="vendor_validus" remote="tv" revision="lp5.1" />
+  <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="tv" revision="lp5.1" />
 
   <!-- AOSP -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -548,49 +549,47 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />  
 
   <!-- PREBUILTS -->
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.1.1_r2" />
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="arm,linux,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/host/3.4" name="platform/prebuilts/clang/linux-x86/host/3.4" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,pdk-cw-fs,x86" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.1.1_r3" />
 
-  <!-- AOSP Toolchains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,tools" remote="aosp" revision="master" />
-  <!-- project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" groups="pdk,tools" remote="aosp" revision="master" / -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,tools" remote="aosp" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,tools" remote="aosp" revision="master" />
-
-  <!-- UBER Toolchains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="UBERTC/arm-eabi-5.1" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="android_prebuilt" remote="tv" revision="lp" />    
+  <project path="prebuilt" name="android_prebuilt" remote="tv" revision="lp" />
+
+  <!-- Additions -->
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="tv" revision="lp5.1" />    
     
 </manifest>
+
