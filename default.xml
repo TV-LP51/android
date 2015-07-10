@@ -214,7 +214,7 @@
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" remote="gh" revision="cm-12.1" />
-  <project path="external/lzma" name="platform/external/lzma" remote="aosp" />
+  <project path="external/lzma" name="CyanogenMod/android_external_lzma" remote="gh" revision="cm-12.1" /> 
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" />
