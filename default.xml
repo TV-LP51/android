@@ -58,6 +58,10 @@
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="tv" revision="lp5.1" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="tv" revision="lp5.1" />
 
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
+
   <!-- AOSP -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
