@@ -135,6 +135,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.1.1_r13" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" />
@@ -171,7 +172,6 @@
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" remote="aosp" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" />
