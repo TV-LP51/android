@@ -15,6 +15,9 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
+  <remote  name="tr"
+           fetch="https://github.com/Tesla-Redux"/>
+
   <remote  name="tv"
            fetch="git://github.com/TV-LP51/" />
 
