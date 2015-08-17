@@ -15,6 +15,9 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
+  <remote  name="tr"
+           fetch="https://github.com/Tesla-Redux"/>
+
   <remote  name="tv"
            fetch="git://github.com/TV-LP51/" />
 
@@ -58,6 +61,13 @@
   <project path="vendor/validus" name="vendor_validus" remote="tv" revision="testing" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="tv" revision="lp5.1" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="tv" revision="lp5.1" />
+
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+
+  <!-- Kernel Adiutor -->
+  <project name="KernelAdiutor" path="packages/apps/KernelAdiutor" remote="tr" revision="lp5.1" />
+  <project name="android-floating-action-button" path="packages/apps/FloatingActionButton" remote="tr" revision="lp5.1" />
 
   <!-- AOSP -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
