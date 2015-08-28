@@ -61,6 +61,7 @@
   <project path="vendor/validus" name="vendor_validus" remote="tv" revision="lp5.1" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="tv" revision="lp5.1" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="tv" revision="lp5.1" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="tv" revision="lp5.1" />
 
   <!-- Anti-piracy support -->
   <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
@@ -540,7 +541,6 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
