@@ -43,7 +43,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tv" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="tv" revision="lp5.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tv" revision="lp5.1"  />
-  <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="lp5.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="tv" revision="clownz" />
   <project path="frameworks/opt/chips" name="frameworks_opt_chips" remote="tv" revision="lp5.1" />
   <project path="frameworks/webview" name="frameworks_webview" remote="tv" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="tv" revision="lp5.1" />
@@ -53,11 +53,11 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="tv" revision="lp5.1" /> 
   <project path="packages/apps/OmniSwitch" name="packages_apps_OmniSwitch" remote="tv" revision="lp5.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="tv" revision="lp5.1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tv" revision="lp5.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tv" revision="clownz" />
   <project path="packages/apps/Terminal" name="packages_apps_Terminal" remote="tv" revision="lp5.1" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tv" revision="lp5.1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tv" revision="clownz" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tv" revision="lp5.1" />
-  <project path="vendor/validus" name="vendor_validus" remote="tv" revision="lp5.1" />
+  <project path="vendor/validus" name="vendor_validus" remote="tv" revision="clownz" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="tv" revision="lp5.1" />
 
   <!-- Anti-piracy support -->
